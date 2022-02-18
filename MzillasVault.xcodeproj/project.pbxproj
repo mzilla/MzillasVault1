@@ -16,6 +16,25 @@
 		E2B7405627AADB2B008DF4DA /* MzillasVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7405527AADB2B008DF4DA /* MzillasVaultTests.swift */; };
 		E2B7406027AADB2B008DF4DA /* MzillasVaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7405F27AADB2B008DF4DA /* MzillasVaultUITests.swift */; };
 		E2B7406227AADB2B008DF4DA /* MzillasVaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7406127AADB2B008DF4DA /* MzillasVaultUITestsLaunchTests.swift */; };
+		E2B7407227AADDEF008DF4DA /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2B7406F27AADDEE008DF4DA /* song1.mp3 */; };
+		E2B7407327AADDEF008DF4DA /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2B7407027AADDEF008DF4DA /* song3.mp3 */; };
+		E2B7407427AADDEF008DF4DA /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2B7407127AADDEF008DF4DA /* song2.mp3 */; };
+		E2B7407827B51003008DF4DA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7407727B51003008DF4DA /* PlayerViewController.swift */; };
+		E2B7407A27BEF744008DF4DA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7407927BEF744008DF4DA /* SignUpViewController.swift */; };
+		E2B7407C27BEF76D008DF4DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7407B27BEF76D008DF4DA /* LoginViewController.swift */; };
+		E2B7407E27BEF9DF008DF4DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7407D27BEF9DF008DF4DA /* HomeViewController.swift */; };
+		E2B7408027BF0103008DF4DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2B7407F27BF0103008DF4DA /* GoogleService-Info.plist */; };
+		E2B7408127BF0104008DF4DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2B7407F27BF0103008DF4DA /* GoogleService-Info.plist */; };
+		E2B7408227BF0104008DF4DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2B7407F27BF0103008DF4DA /* GoogleService-Info.plist */; };
+		E2B7408527BF0464008DF4DA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E2B7408427BF0464008DF4DA /* FirebaseAnalytics */; };
+		E2B7408727BF0464008DF4DA /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E2B7408627BF0464008DF4DA /* FirebaseAnalyticsSwift-Beta */; };
+		E2B7408927BF0464008DF4DA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E2B7408827BF0464008DF4DA /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		E2B7408B27BF0464008DF4DA /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = E2B7408A27BF0464008DF4DA /* FirebaseAppCheck */; };
+		E2B7408D27BF0464008DF4DA /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E2B7408C27BF0464008DF4DA /* FirebaseAppDistribution-Beta */; };
+		E2B7408F27BF0464008DF4DA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E2B7408E27BF0464008DF4DA /* FirebaseAuth */; };
+		E2B7409227BF1C7E008DF4DA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B7409027BF1C7C008DF4DA /* Model.xcdatamodeld */; };
+		E2B7409327BF1C7E008DF4DA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B7409027BF1C7C008DF4DA /* Model.xcdatamodeld */; };
+		E2B7409427BF1C7E008DF4DA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B7409027BF1C7C008DF4DA /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,15 @@
 		E2B7405B27AADB2B008DF4DA /* MzillasVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MzillasVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B7405F27AADB2B008DF4DA /* MzillasVaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MzillasVaultUITests.swift; sourceTree = "<group>"; };
 		E2B7406127AADB2B008DF4DA /* MzillasVaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MzillasVaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2B7406F27AADDEE008DF4DA /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		E2B7407027AADDEF008DF4DA /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		E2B7407127AADDEF008DF4DA /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		E2B7407727B51003008DF4DA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		E2B7407927BEF744008DF4DA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E2B7407B27BEF76D008DF4DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2B7407D27BEF9DF008DF4DA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2B7407F27BF0103008DF4DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2B7409127BF1C7D008DF4DA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B7408B27BF0464008DF4DA /* FirebaseAppCheck in Frameworks */,
+				E2B7408F27BF0464008DF4DA /* FirebaseAuth in Frameworks */,
+				E2B7408727BF0464008DF4DA /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				E2B7408D27BF0464008DF4DA /* FirebaseAppDistribution-Beta in Frameworks */,
+				E2B7408927BF0464008DF4DA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				E2B7408527BF0464008DF4DA /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +113,7 @@
 		E2B7403227AADB11008DF4DA = {
 			isa = PBXGroup;
 			children = (
+				E2B7409027BF1C7C008DF4DA /* Model.xcdatamodeld */,
 				E2B7403D27AADB12008DF4DA /* MzillasVault */,
 				E2B7405427AADB2B008DF4DA /* MzillasVaultTests */,
 				E2B7405E27AADB2B008DF4DA /* MzillasVaultUITests */,
@@ -99,6 +134,9 @@
 		E2B7403D27AADB12008DF4DA /* MzillasVault */ = {
 			isa = PBXGroup;
 			children = (
+				E2B7406F27AADDEE008DF4DA /* song1.mp3 */,
+				E2B7407127AADDEF008DF4DA /* song2.mp3 */,
+				E2B7407027AADDEF008DF4DA /* song3.mp3 */,
 				E2B7403E27AADB12008DF4DA /* AppDelegate.swift */,
 				E2B7404027AADB12008DF4DA /* SceneDelegate.swift */,
 				E2B7404227AADB12008DF4DA /* ViewController.swift */,
@@ -106,6 +144,11 @@
 				E2B7404727AADB2A008DF4DA /* Assets.xcassets */,
 				E2B7404927AADB2A008DF4DA /* LaunchScreen.storyboard */,
 				E2B7404C27AADB2A008DF4DA /* Info.plist */,
+				E2B7407727B51003008DF4DA /* PlayerViewController.swift */,
+				E2B7407927BEF744008DF4DA /* SignUpViewController.swift */,
+				E2B7407B27BEF76D008DF4DA /* LoginViewController.swift */,
+				E2B7407D27BEF9DF008DF4DA /* HomeViewController.swift */,
+				E2B7407F27BF0103008DF4DA /* GoogleService-Info.plist */,
 			);
 			path = MzillasVault;
 			sourceTree = "<group>";
@@ -143,6 +186,14 @@
 			dependencies = (
 			);
 			name = MzillasVault;
+			packageProductDependencies = (
+				E2B7408427BF0464008DF4DA /* FirebaseAnalytics */,
+				E2B7408627BF0464008DF4DA /* FirebaseAnalyticsSwift-Beta */,
+				E2B7408827BF0464008DF4DA /* FirebaseAnalyticsWithoutAdIdSupport */,
+				E2B7408A27BF0464008DF4DA /* FirebaseAppCheck */,
+				E2B7408C27BF0464008DF4DA /* FirebaseAppDistribution-Beta */,
+				E2B7408E27BF0464008DF4DA /* FirebaseAuth */,
+			);
 			productName = MzillasVault;
 			productReference = E2B7403B27AADB12008DF4DA /* MzillasVault.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +266,9 @@
 				Base,
 			);
 			mainGroup = E2B7403227AADB11008DF4DA;
+			packageReferences = (
+				E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E2B7403C27AADB12008DF4DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +287,11 @@
 			files = (
 				E2B7404B27AADB2A008DF4DA /* LaunchScreen.storyboard in Resources */,
 				E2B7404827AADB2A008DF4DA /* Assets.xcassets in Resources */,
+				E2B7407327AADDEF008DF4DA /* song3.mp3 in Resources */,
 				E2B7404627AADB12008DF4DA /* Main.storyboard in Resources */,
+				E2B7407427AADDEF008DF4DA /* song2.mp3 in Resources */,
+				E2B7407227AADDEF008DF4DA /* song1.mp3 in Resources */,
+				E2B7408027BF0103008DF4DA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B7408127BF0104008DF4DA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B7408227BF0104008DF4DA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B7407C27BEF76D008DF4DA /* LoginViewController.swift in Sources */,
 				E2B7404327AADB12008DF4DA /* ViewController.swift in Sources */,
+				E2B7407827B51003008DF4DA /* PlayerViewController.swift in Sources */,
+				E2B7409227BF1C7E008DF4DA /* Model.xcdatamodeld in Sources */,
 				E2B7403F27AADB12008DF4DA /* AppDelegate.swift in Sources */,
 				E2B7404127AADB12008DF4DA /* SceneDelegate.swift in Sources */,
+				E2B7407E27BEF9DF008DF4DA /* HomeViewController.swift in Sources */,
+				E2B7407A27BEF744008DF4DA /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B7405627AADB2B008DF4DA /* MzillasVaultTests.swift in Sources */,
+				E2B7409327BF1C7E008DF4DA /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +344,7 @@
 			files = (
 				E2B7406227AADB2B008DF4DA /* MzillasVaultUITestsLaunchTests.swift in Sources */,
 				E2B7406027AADB2B008DF4DA /* MzillasVaultUITests.swift in Sources */,
+				E2B7409427BF1C7E008DF4DA /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +685,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2B7408427BF0464008DF4DA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E2B7408627BF0464008DF4DA /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		E2B7408827BF0464008DF4DA /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		E2B7408A27BF0464008DF4DA /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		E2B7408C27BF0464008DF4DA /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		E2B7408E27BF0464008DF4DA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2B7408327BF0464008DF4DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E2B7409027BF1C7C008DF4DA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2B7409127BF1C7D008DF4DA /* Model.xcdatamodel */,
+			);
+			currentVersion = E2B7409127BF1C7D008DF4DA /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E2B7403327AADB11008DF4DA /* Project object */;
 }
